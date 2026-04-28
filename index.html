@@ -3,16 +3,75 @@
 <head>
   <title>Secret Wescipe</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fafaf9;
+      text-align: center;
+    }
+    header {
+      padding: 40px 20px;
+      background: #111;
+      color: white;
+    }
+    h1 {
+      margin: 0;
+      font-size: 40px;
+    }
+    .section {
+      padding: 60px 20px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      margin: 20px auto;
+      max-width: 400px;
+      border-radius: 12px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    }
+    button {
+      padding: 12px 20px;
+      border: none;
+      border-radius: 8px;
+      background: #111;
+      color: white;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+  </style>
 </head>
-<body style="font-family: Arial; text-align: center; padding: 50px;">
+<body>
+
+<header>
   <h1>🍽️ Secret Wescipe</h1>
-  <p>Recipes worth keeping.</p>
+  <p>Recipes worth keeping</p>
+</header>
 
-  <h2>Coming Soon</h2>
-  <p>I'm building something delicious.</p>
+<div class="section">
+  <h2>Featured Recipes</h2>
 
-  <button onclick="alert('Signup coming soon!')">
-    Join the List
-  </button>
+  <div class="card">
+    <h3>🔥 Hot Honey Chicken</h3>
+    <p>Sweet, spicy, crispy perfection.</p>
+  </div>
+
+  <div class="card">
+    <h3>🍝 Truffle Pasta</h3>
+    <p>Simple, rich, and restaurant-level.</p>
+  </div>
+
+  <div class="card">
+    <h3>🍋 Lemon Cheesecake</h3>
+    <p>Light, creamy, and unforgettable.</p>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Join the List</h2>
+  <p>Get new recipes and secret drops.</p>
+  <button onclick="alert('Email signup coming soon')">Join</button>
+</div>
+
 </body>
 </html>
